@@ -10,6 +10,7 @@ function updateTimer() {
     second++;
     if (second == 60) {
       minute++;
+
       second = 0;
       if (minute == 60) {
         hour++;
