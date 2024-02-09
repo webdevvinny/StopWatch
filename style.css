@@ -1,0 +1,40 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.start,
+.stop,
+.reset {
+  color: green;
+  background-color: palegoldenrod;
+  text-align: center;
+  cursor: pointer;
+}
+
+.stop {
+  color: red;
+  background-color: black;
+}
+
+.reset {
+  color: chocolate;
+  background-color: aqua;
+}
+
+.buttons-container {
+  display: flex;
+}
+
+.buttons-container p {
+  flex: 1;
+  padding: 10px;
+}
+
+.watch-container {
+  position: relative;
+  width: max-content;
+  border: 3px solid pink;
+}
